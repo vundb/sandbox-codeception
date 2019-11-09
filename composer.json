@@ -1,0 +1,16 @@
+{
+    "name": "vundb/sandbox-codeception",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Viktor Breitenbücher",
+            "email": "breitenbuecher.viktor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.1"
+    }
+}
