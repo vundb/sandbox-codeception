@@ -14,3 +14,6 @@ modules:
         #    url: https://dev.to
         - \Helper\Acceptance
     step_decorators: ~
+
+params:
+    - env
