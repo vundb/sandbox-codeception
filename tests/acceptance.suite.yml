@@ -10,6 +10,8 @@ modules:
         - WebDriver:
               url: "%WEBSITE_URL%"
               browser: chrome
+              host: "%SELENIUM_HOST%"
+              port: "%SELENIUM_PORT%"
         #- PhpBrowser:
         #    url: https://dev.to
         - \Helper\Acceptance
