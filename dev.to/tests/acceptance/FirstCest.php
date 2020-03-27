@@ -14,7 +14,7 @@ class FirstCest
     public function writePostWorks(AcceptanceTester $I)
     {
         $I->amOnPage('/');
-        $I->click('WRITE A POST');
+        $I->click('Write a post');
         $I->wait(1);
         $I->see('Welcome to DEV');
      }
