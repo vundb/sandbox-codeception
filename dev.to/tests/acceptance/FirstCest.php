@@ -24,7 +24,7 @@ class FirstCest
     {
         $I->amOnPage('/');
         $I->wait(1);
-        $I->see('Sign In with GitHub 1');
-        $I->see('Sign In with Twitter 2');
+        $I->see('Sign In with GitHub');
+        $I->see('Sign In with Twitter');
     }
 }
